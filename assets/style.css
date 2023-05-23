@@ -6,6 +6,7 @@
 
 section {
   width: 100%;
+  max-width: 1440px;
   display: flex;
   align-items: center;
 }
@@ -13,4 +14,12 @@ section {
 section img {
   object-fit: cover;
   width: 50%;
+}
+
+section .text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
