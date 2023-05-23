@@ -63,3 +63,16 @@ section .text-container button {
     padding: 1rem;
   }
 }
+
+.animation {
+  animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
