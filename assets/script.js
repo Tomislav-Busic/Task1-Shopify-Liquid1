@@ -19,3 +19,13 @@ btn.addEventListener("click", () => {
 container.addEventListener("animationend", () => {
   paragraph.classList.remove("animation");
 });
+
+/* btn.addEventListener("click", () => {
+  paragraph.innerHTML = texts[index];
+  if (index < texts.length - 1) {
+    index++;
+    paragraph.classList.add("animation");
+  } else {
+    index = 0;
+  }
+}); */
