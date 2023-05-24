@@ -6,42 +6,76 @@
 }
 
 section {
-  margin: 2rem auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 64px 0px 0px;
-
-  position: relative;
-  width: 1440px;
+  margin: auto;
+  max-width: 1440px;
   height: 576px;
-
-  background: #e3cfcf;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
-section img {
+section .left {
+  width: 50%;
+  height: 100%;
+}
+
+section .left img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  width: 50%;
 }
 
-section .text-container {
+section .right {
   width: 50%;
-  padding: 1rem 4rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  background-color: rgb(197, 163, 229);
+}
+
+section .right .text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: rgb(197, 163, 229);
+  padding: 1rem;
+  gap: 24px;
   text-align: center;
-  gap: 1.5rem;
-  color: #333;
+  max-width: 512px;
+  max-height: 337px;
 }
 
-section .text-container h2 {
-  font-weight: 400;
+section .right .text-container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
 }
 
-section .text-container button {
+section .right .text-container .title h2 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+section .right .text-container .title p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+
+section .right .text-container button {
   padding: 1rem 2rem;
   background: rgb(197, 163, 229);
   cursor: pointer;
