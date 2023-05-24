@@ -7,6 +7,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* SECTION */
+
 section {
   margin: auto;
   max-width: 1440px;
@@ -15,6 +17,8 @@ section {
   align-items: center;
   flex-direction: row;
 }
+
+/* LEFT SIDE */
 
 section .left {
   width: 50%;
@@ -27,6 +31,8 @@ section .left img {
   object-fit: cover;
 }
 
+/* RIGHT SIDE */
+
 section .right {
   width: 50%;
   height: 100%;
@@ -36,6 +42,8 @@ section .right {
   padding: 0px;
   background: #e3cfcf;
 }
+
+/* TEXT CONTAINER */
 
 section .right .text-container {
   display: flex;
@@ -77,6 +85,8 @@ section .right .text-container .title p {
   color: #000000;
 }
 
+/* BUTTON */
+
 section .right .text-container button {
   background: #e3cfcf;
   padding: 12px 24px;
@@ -85,6 +95,8 @@ section .right .text-container button {
   border: 1px solid #000000;
   cursor: pointer;
 }
+
+/* RESPONSIVE */
 
 @media only screen and (max-width: 900px) {
   section {
@@ -145,6 +157,8 @@ section .right .text-container button {
     height: 300px;
   }
 }
+
+/* ANIMATION */
 
 .animation {
   animation: fadeIn 1s linear;
