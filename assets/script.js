@@ -1,7 +1,22 @@
 const container = document.querySelector(".text-container");
 const paragraph = document.querySelector("p");
 const btn = document.querySelector("button");
-let index = 0;
+
+paragraph.substring(0, 20);
+
+const onChange = () => {
+  if (btn.innerText === "Learn more") {
+    console.log("true");
+  }
+};
+
+btn.addEventListener("click", onChange);
+
+container.addEventListener("animationend", () => {
+  paragraph.classList.remove("animation");
+});
+
+/* let index = 0;
 
 const texts = [
   " Make a statement with bold prints and vibrant colors that brighten up any outfit. ",
@@ -18,7 +33,7 @@ btn.addEventListener("click", () => {
 
 container.addEventListener("animationend", () => {
   paragraph.classList.remove("animation");
-});
+}); */
 
 /* btn.addEventListener("click", () => {
   paragraph.innerHTML = texts[index];
