@@ -86,6 +86,10 @@ section .right .text-container .title p span {
   color: #000000;
 }
 
+section .right .text-container .title p span {
+  display: none;
+}
+
 /* BUTTON */
 
 section .right .text-container button {

@@ -7,11 +7,11 @@ const onChange = () => {
   if (btn.innerText === "Learn more") {
     btn.innerText = "See less";
     paragraph.classList.add("animation");
-    toogleText.style.display = "none";
+    toogleText.style.display = "block";
   } else {
     btn.innerText = "Learn more";
     paragraph.classList.add("animation");
-    toogleText.style.display = "block";
+    toogleText.style.display = "none";
   }
 };
 
