@@ -54,6 +54,7 @@ section .right .text-container {
   text-align: center;
   max-width: 512px;
   max-height: 337px;
+  transition: all 1s ease-in-out;
 }
 
 section .right .text-container .title {
