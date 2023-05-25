@@ -2,11 +2,13 @@ const container = document.querySelector(".text-container");
 const paragraph = document.querySelector("p");
 const btn = document.querySelector("button");
 
-paragraph.substring(0, 20);
-
 const onChange = () => {
   if (btn.innerText === "Learn more") {
-    console.log("true");
+    btn.innerText = "See less";
+    paragraph.classList.add("animation");
+  } else {
+    btn.innerText = "Learn more";
+    paragraph.classList.add("animation");
   }
 };
 
