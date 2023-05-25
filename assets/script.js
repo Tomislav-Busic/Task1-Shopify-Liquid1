@@ -1,14 +1,17 @@
 const container = document.querySelector(".text-container");
 const paragraph = document.querySelector("p");
 const btn = document.querySelector("button");
+const toogleText = document.querySelector("span");
 
 const onChange = () => {
   if (btn.innerText === "Learn more") {
     btn.innerText = "See less";
     paragraph.classList.add("animation");
+    toogleText.style.display = "none";
   } else {
     btn.innerText = "Learn more";
     paragraph.classList.add("animation");
+    toogleText.style.display = "block";
   }
 };
 
