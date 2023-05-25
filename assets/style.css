@@ -75,7 +75,8 @@ section .right .text-container .title h2 {
   color: #000000;
 }
 
-section .right .text-container .title p {
+section .right .text-container .title p,
+section .right .text-container .title p span {
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 300;
@@ -137,7 +138,8 @@ section .right .text-container button {
     font-size: 24px;
   }
 
-  section .right .text-container .title p {
+  section .right .text-container .title p,
+  section .right .text-container .title p span {
     font-size: 16px;
   }
 
